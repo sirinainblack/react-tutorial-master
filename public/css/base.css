@@ -1,0 +1,287 @@
+body {
+  background-image: url("../images/vigne_4620%20(1).jpg");
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+background-size: cover;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+#app{
+  width: 100%;
+  height: 100%;
+  margin-top : 100px;
+}
+
+
+
+/*
+****************************new css
+*/
+
+html{
+  padding: 0px 0px 0px 0px;
+
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+
+}
+div#content div.menu-trigger:hover {
+  background: #556270;
+}
+div#content div.menu-trigger i:hover {
+  color: #fcfeff;
+}
+
+.container.menu-active div#content {
+  left: 284px;
+  border-radius: 7px 0 0 7px;
+}
+
+
+.container.menu-active div#content .menu-trigger {
+  left: 294px;
+}
+
+
+nav#slide-menu {
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  bottom: 0px;
+  display: block;
+  background: #81be00;
+  float: left;
+  width: 100%;
+  max-width: 284px;
+  height: 100%;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+
+
+}
+nav#slide-menu > ul {
+  display: block;
+  margin: 40px;
+  padding: 0;
+  list-style: none;
+  opacity: 0.5;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+nav#slide-menu > ul li {
+  color: #dfe5eb;
+  padding: 6px 0;
+  cursor: pointer;
+}
+nav#slide-menu > ul li:hover {
+  color: #000;
+}
+nav#slide-menu > ul li:before {
+  font-family: "ico";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  color: #000;
+  margin-right: 12px;
+  text-align: center;
+  font-variant: normal;
+  font-size: 0.75em;
+  text-transform: none;
+  line-height: 1em;
+}
+
+nav#slide-menu > ul li i{
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  color: #000000;
+  margin-right: 12px;
+  text-align: center;
+  font-variant: normal;
+  font-size: 0.75em;
+  text-transform: none;
+  line-height: 1em;
+}
+nav#slide-menu > ul li.sep {
+  margin-top: 7px;
+  padding-top: 14px;
+  border-top: 1px solid #6b7b8d;
+}
+
+.container.menu-active nav#slide-menu {
+  left: 0px;
+}
+
+.container.menu-active nav#slide-menu ul {
+  left: 0px;
+  opacity: 1;
+}
+
+/*
+  Content
+*/
+div#content {
+
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0% 2% 0% 2%;
+  overflow: scroll;
+  border-radius: 0;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -moz-box-shadow: -3px 0 6px #4a5562;
+  -webkit-box-shadow: -3px 0 6px #4a5562;
+  box-shadow: -3px 0 6px #4a5562;
+
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+div#content div.menu-trigger {
+  left: 2%;
+  position: fixed;
+
+  width: 96%;
+  height: 45px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+div#content div.menu-trigger h1{
+  color : black;
+}
+div#content div.menu-trigger i {
+  padding: 0% 1% 0% 1%;
+
+  display: inline-block;
+  width: 96px;
+  height: 36px;
+  color: black;
+  float: left;
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-transform: none;
+  line-height: 36px;
+}
+div#content div.menu-trigger   h2 {
+  color: black;
+  float: right;
+  padding: 0% 1% 1% 1%;
+  margin: 0px;
+}
+div#content div.menu-trigger:hover {
+  background: #556270;
+}
+div#content div.menu-trigger i:hover {
+  color: #fcfeff;
+}
+
+
+.majorpoints h2 img{
+  width:40px;    height: auto; float: right;  padding: 10px 10px 10px 0px;
+}
+/*
+*/
+.terroirname h2{
+  padding: 5px 20px 20px 30px;
+  color: #fff;
+  font-weight: 100;
+}
+.terroirname{
+  background-color: rgba(255,255,255,0.4);
+  background-size: cover;
+}
+.majorpointslegends{
+
+  border:none;
+}
+
+
+.majorpoints {
+  border:none;
+  border-radius: 2px;
+
+}
+
+
+.majorpoints hiders{
+  background: #556270;
+  display: none;
+  cursor: pointer;
+}
+.fieldset{
+  border:none;
+
+}
+.majorpoints :hover{
+  cursor: pointer;
+}
+
+.majorpoints {
+  padding: 0px;
+  background-color: rgba(255,255,255,0.4);
+
+}
+.majorpoints .hiders {
+  float: right;
+margin :10px 0px 10px 0px;
+}
+
+.majorpoints .hiders p {
+  padding: 0px 20px 20px 30px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+
+}
+
+.majorpoints  {
+  margin :10px 0px 10px 0px;
+
+}
+.majorpoints h2 {
+  padding: 5px 20px 0px 30px;
+  color: #fff;
+  font-family: Helvetica;
+}
+#arrow :hover {
+  display: none;
+
+
+}
+.fa-refresh:before{
+  color :white;
+
+}

@@ -1,0 +1,40 @@
+{
+  "name": "react-tutorial",
+  "version": "0.0.0",
+  "description": "Code from the React tutorial.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-gmaps": "^1.4.3"
+  },
+  "devDependencies": {  "concurrently": "^1.0.0",    "lite-server": "^1.2.0"
+  },
+  "scripts": {
+      "tsc": "tsc",
+      "tsc:w": "tsc -w",
+      "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjs/react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "petehunt",
+  "bugs": {
+    "url": "https://github.com/reactjs/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/reactjs/react-tutorial",
+  "engines": {
+    "node": "0.12.x"
+  }
+}
