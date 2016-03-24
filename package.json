@@ -5,17 +5,21 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
+    "bower": "^1.7.7",
+    "browserify": "^13.0.0",
     "express": "^4.4.5",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-gmaps": "^1.4.3"
   },
-  "devDependencies": {  "concurrently": "^1.0.0",    "lite-server": "^1.2.0"
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "lite-server": "^1.2.0"
   },
   "scripts": {
-      "tsc": "tsc",
-      "tsc:w": "tsc -w",
-      "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\""
   },

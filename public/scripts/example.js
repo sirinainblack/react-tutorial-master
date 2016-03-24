@@ -25,7 +25,7 @@ var Title = React.createClass({
 
     return {map: {}, title: 'undefined', temp: '0', rain: '0', wind: '0', gdd: "", water: '', ref : false};
   },
-  getTerroirName: function () {
+  getTerroir: function () {
     console.log("getting info...");
     if (!this.state.ref) {
       console.log("connecting to server");
@@ -40,6 +40,7 @@ var Title = React.createClass({
           this.setState({rain: data.rain});
           this.setState({gdd: data.gdd});
           this.setState({water: data.water});
+          this.setState({ref: true});
 
         }.bind(this),
         error: function (xhr, status, err) {
@@ -52,11 +53,10 @@ var Title = React.createClass({
   },
 
   render: function () {
-    this.getTerroirName();
+    this.getTerroir();
     return (
 
 <div>
-
 
 <div >
 
